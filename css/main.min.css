@@ -258,6 +258,7 @@ section {
   padding-top: 100px;
   font-weight: 300;
   padding-bottom: 100px;
+  margin: 0 auto;
 }
 
 .pricing__table .table__header,
