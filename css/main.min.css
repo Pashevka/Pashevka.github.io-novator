@@ -580,7 +580,6 @@ section__image__header,
 .pricing__content .pricing__icons__item img,
 .portfolio__content .pricing__icons__item img {
   padding-bottom: 35px;
-  height: 110px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -874,6 +873,10 @@ section__image__header,
   display: flex;
   position: relative;
   padding-right: 42px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 991px) {
