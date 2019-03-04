@@ -35,6 +35,95 @@
   }
 }
 
+.anim1 {
+  -webkit-animation-name: LR;
+          animation-name: LR;
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
+  -webkit-animation-timing-function: cubic-bezier(0.16, 0, 0.07, 1);
+          animation-timing-function: cubic-bezier(0.16, 0, 0.07, 1);
+}
+
+.opa0 {
+  -webkit-animation-name: o0;
+          animation-name: o0;
+  -webkit-animation-duration: 1.0s;
+          animation-duration: 1.0s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.anim2 {
+  -webkit-animation-name: sides;
+          animation-name: sides;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-timing-function: cubic-bezier(0.16, 0, 0.07, 1);
+          animation-timing-function: cubic-bezier(0.16, 0, 0.07, 1);
+}
+
+@-webkit-keyframes sides {
+  0% {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes sides {
+  0% {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes LR {
+  0% {
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes LR {
+  0% {
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes o0 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes o0 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 html > body {
   font-family: 'Roboto Slab' !important;
 }
