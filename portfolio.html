@@ -42,7 +42,7 @@
     <header>
         <div class="header">
             <div class="header__logo">
-                <img src="img/LOGO.svg" alt="Logo">
+                <a href="./index.html"><img src="img/LOGO.svg" alt="Logo"></a>
             </div>
             <div class="header__list">
                 <ul>
@@ -50,7 +50,7 @@
                     <li id="id_2"><a href="pricing.html">pricing</a></li>
                     <li class="selected" id="id_3"><a href="portfolio.html">portfolio</a></li>
                     <li id="id_4"><a href="how-we-work.html">how we work</a></li>
-                    <li id="id_5"><a href="team.html">portteamfolio</a></li>
+                    <li id="id_5"><a href="team.html">team</a></li>
                     <li id="id_6"><a href="tech.html">tech</a></li>
                     <li id="id_7"><a href="contact.html">contact us</a></li>
                 </ul>
@@ -59,19 +59,25 @@
 
     </header>
     <section class="portfolio">
-        <div class="container-fluid m-0 p-0">
-            <div class="case_1">
-                <div class="portfolio__image">
-                    <img src="img/eaist_main2.jpg" alt="">
-                    <h1 class="portfolio__image__header">Procurement system for the Moscow government</h1>
-                </div>
-                <div class="portfolio__descr">
-                    <div class="portfolio__descr__header">Challenge</div>
-                    <div class="portfolio__descr__content">50 000 goverment agencies use system on everyday basis to
+        <div class="section__header">
+            <div class="section__image">
+                <div class="image"></div>
+            </div>
+            <div class="section__descr">
+                <div class="descr__container">
+                    <div class="image__name">
+                        <h1 class="section__image__header">Procurement system for the Moscow government</h1>
+                    </div>
+                    <div class="section__descr__header">Challenge</div>
+                    <div class="section__descr__content">50 000 goverment agencies use system on everyday basis to
                         automate procurement­related paperwork from budget planning to
                         contract management. Users generate neverending stream of additional requirements for
                         our development team on ongoing basis.</div>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="case_1">
                 <div class="portfolio__slider">
                     <div class="portfolio__slider__items">
                         <div class="portfolio__slider__item">
@@ -99,7 +105,7 @@
                     </div>
                 </div>
                 <div class="portfolio__bottom__image">
-                    <img height=600 src="img/eaist1.jpg" alt="">
+                    <img height=100%  width=100% src="img/eaist1.jpg" alt="">
                 </div>
                 <div class="portfolio__buttons">
                     <a href="">previous project</a>

@@ -42,7 +42,7 @@
 
                     let el = document.querySelector('#customSVG');
                     console.log(el);
-                    
+
                     let myAnimation = new LazyLinePainter(el, {
                         "ease": "easeLinear",
                         "strokeWidth": 0.5,
@@ -63,7 +63,7 @@
     <header>
         <div class="header">
             <div class="header__logo">
-                <img src="img/LOGO.svg" alt="Logo">
+                <a href="./index.html"><img src="img/LOGO.svg" alt="Logo"></a>
             </div>
             <div class="header__list">
                 <ul>
@@ -71,7 +71,7 @@
                     <li class="selected" id="id_2"><a href="pricing.html">pricing</a></li>
                     <li id="id_3"><a href="portfolio.html">portfolio</a></li>
                     <li id="id_4"><a href="how-we-work.html">how we work</a></li>
-                    <li id="id_5"><a href="team.html">portteamfolio</a></li>
+                    <li id="id_5"><a href="team.html">team</a></li>
                     <li id="id_6"><a href="tech.html">tech</a></li>
                     <li id="id_7"><a href="contact.html">contact us</a></li>
                 </ul>
@@ -80,16 +80,23 @@
 
     </header>
     <section class="pricing">
-        <div class="container-fluid m-0 p-0">
-            <div class="pricing__image">
-                <img src="img/pricing_main2.jpg" alt="">
-                <h1 class="pricing__image__header">Pricing</h1>
+        <div class="section__header">
+            <div class="section__image">
+                <div class="image"></div>
             </div>
-            <div class="pricing__descr">
-                <div class="pricing__descr__header">Contract types</div>
-                <div class="pricing__descr__content">Мы используем два типа подхода к оценке стоимости проекта: либо
-                    считаем общую стоимость проекта, либо почасовую оплату.</div>
+            <div class="section__descr">
+                <div class="descr__container">
+                    <div class="image__name">
+                        <h1 class="section__image__header">Pricing</h1>
+                    </div>
+                    <div class="section__descr__header">Contract types</div>
+                    <div class="section__descr__content">Мы используем два типа подхода к оценке стоимости проекта:
+                        либо считаем общую стоимость проекта, либо почасовую оплату.</div>
+                </div>
             </div>
+        </div>
+
+        <div class="container-fluid">
             <div class="pricing__content">
                 <div class="pricing__icons">
                     <div class="pricing__icons__item"><img src="img/Min project-  30 000$ .svg" alt="pricing">
